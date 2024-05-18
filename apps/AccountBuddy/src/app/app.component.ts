@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
+import { User } from '@ac/interfaces';
 
 @Component({
   standalone: true,
@@ -11,4 +12,9 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 })
 export class AppComponent {
   title = 'AccountBuddy';
+  data: User = {
+    email: '',
+    id: '',
+    name: '',
+  };
 }
