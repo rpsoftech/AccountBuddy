@@ -1,0 +1,39 @@
+@import '../../styles';
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 30px;
+  .card-title,
+  .card-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: inherit;
+  }
+
+  .card-title {
+    text-align: center;
+    p {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}
+
+.login-btn {
+  background-color: $primary-theme-color;
+  color: $white;
+  &:hover {
+    background-color: rgba($color: $primary-theme-color, $alpha: 0.8);
+  }
+}

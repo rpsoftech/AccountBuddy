@@ -1,0 +1,11 @@
+{
+  "APP_TITLE": "AccountBuddy",
+  "LOGIN_PAGE_LOCALIZATION": {
+    "MEMBER_LOGIN": "Member Login",
+    "USER_ID_LABEL": "User ID",
+    "PASSWORD_LABEL": "Password",
+    "SIGN_IN": "Sign in",
+    "USER_ID_REQUIRED": "User ID is required.",
+    "PASSWORD_REQUIRED": "Password is required."
+  }
+}
